@@ -26,7 +26,7 @@ public final class HdbAddon extends ItemAddon implements Listener {
     @Contract(pure = true)
     @Override
     public @NotNull String getPluginName() {
-        return "HeadsDatabase";
+        return "HeadDatabase";
     }
 
     @Contract(pure = true)
