@@ -38,11 +38,16 @@ public final class HdbAddon extends ItemAddon implements Listener {
     @Contract(pure = true)
     @Override
     public @NotNull String getVersion() {
-        return "1.0.1";
+        return "1.0.2";
     }
 
     @EventHandler
     public void onDatabaseLoad(DatabaseLoadEvent e) {
         this.api = new HeadDatabaseAPI();
+    }
+
+    @Override
+    public String getUrl() {
+        return "https://github.com/Lapzupi/CM-Hdb-Addon/releases";
     }
 }

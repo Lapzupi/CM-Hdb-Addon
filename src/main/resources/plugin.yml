@@ -1,4 +1,0 @@
-name: Hdb Addon
-version: '${project.version}'
-main: com.lapzupi.dev.hdb.hdbaddon.HdbAddon
-api-version: 1.19
